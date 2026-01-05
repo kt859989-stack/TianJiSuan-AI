@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
 import { TabType, UserInfo } from './types';
-import { getDailyFortune, getCompatibility, speakProphecy } from './services/geminiService';
+import { getDailyFortune, getCompatibility, speakProphecy } from './geminiService';
 import html2canvas from 'html2canvas';
 
 const playAudio = async (base64Data: string) => {
